@@ -19,12 +19,18 @@
 }
 
 .second-line a{
+    padding: 0.5rem;
     color: white;
     text-decoration: none;
+    display: flex;
 }
 
 .third-line{
     display: none;
+}
+
+.row{
+    display: flex;
 }
 
 @media screen and (max-width:48rem){
